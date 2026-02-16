@@ -1,47 +1,44 @@
 {
-  "name": "sunnysideup/set-my-site-as-preferred-source-in-google",
-  "description": "Creates a little link that you can add to your site to set your site to be a preferred source of information",
-  "type": "silverstripe-vendormodule",
-  "keywords": [
-    "google",
-    "search",
-    "preferred",
-    "better quality search"
-  ],
-  "license": "BSD-3-Clause",
-  "require": {
-    "silverstripe/framework": "^5.0",
-    "silverstripe/admin": "^2.0"
-  },
-  "require-dev": {
-    "sunnysideup/sswebpack_engine_only": "dev-master",
-    "silverleague/ideannotator": "*",
-    "phpunit/phpunit": "^9.6",
-    "squizlabs/php_codesniffer": "^3.7",
-    "silverstripe/standards": "^1",
-    "phpstan/extension-installer": "^1.3"
-  },
-  "autoload": {
-    "psr-4": {
-      "Sunnysideup\\SetMySiteAsPreferredSourceInGoogle\\": "src/"
-    }
-  },
-  "extra": {
-    "expose": [
-      "client/dist"
+    "name": "sunnysideup/set-my-site-as-preferred-source-in-google",
+    "description": "Creates a little link that you can add to your site to set your site to be a preferred source of information on Google.",
+    "type": "silverstripe-vendormodule",
+    "keywords": [
+        "google",
+        "search",
+        "preferred",
+        "seo",
+        "marketing",
+        "better quality search"
+    ],
+    "license": "BSD-3-Clause",
+    "require": {
+        "silverstripe/framework": "^6.0"
+    },
+    "require-dev": {
+        "sunnysideup/sswebpack_engine_only": "dev-master",
+        "silverleague/ideannotator": "*",
+        "phpunit/phpunit": "^9.6",
+        "squizlabs/php_codesniffer": "^3.7",
+        "silverstripe/standards": "^1",
+        "phpstan/extension-installer": "^1.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sunnysideup\\SetMySiteAsPreferredSourceInGoogle\\": "src/"
+        }
+    },
+    "extra": {
+        "expose": [
+            "client/dist"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Nicolaas Thiemen Francken",
+            "email": "modules@sunnysideup.co.nz",
+            "role": "lead developer"
+        }
     ]
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true,
-  "bin": [
-    "bin/sake-npm-build-set-my-site-as-preferred-source-in-google.sh",
-    "bin/sake-npm-watch-set-my-site-as-preferred-source-in-google.sh"
-  ],
-  "authors": [
-    {
-      "name": "Nicolaas Thiemen Francken",
-      "email": "modules@sunnysideup.co.nz",
-      "role": "lead developer"
-    }
-  ]
 }
